@@ -2,14 +2,14 @@
 <html lang="es">
 
 <head>
-  <meta name="description" content="E-commerce orientado a dispositivos móviles">
+  <meta name="description" content="Aplicación para gestionar la lista de la compra orientado a dispositivos móviles">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./styles/styles.css">
   <script src="https://kit.fontawesome.com/ffad96fe54.js" crossorigin="anonymous"></script>
 
-  <title>Lista de la compra</title>
+  <title>Añadir artículo|Lista de la compra</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
         <h1>Lista de la compra</h1>
         <nav>
           <ul class="nav-bar">
-            <li><a>Principal</a></li>
-            <li><a>Lista</a></li>
+            <li><a href="./index.html"><strong>Principal</strong></a></li>
+            <li><a href="./lista-articulos.html">Lista</a></li>
             <li><a>Acerca de</a></li>
           </ul>
         </nav>
@@ -35,9 +35,9 @@
       <form class="add-article-form">
         <label for="name">Nombre:</label>
         <input id="name" type="text">
-        <label for="name">Nombre:</label>
+        <label for="price">Nombre:</label>
         <div>
-          <input id="name" type="text">
+          <input id="price" type="num">
           <span>€</span>
         </div>
         <button class="submit-button" type="submit">Añadir</button>

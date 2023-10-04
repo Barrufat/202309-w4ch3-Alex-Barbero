@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="description" content="Aplicación para gestionar la lista de la compra orientado a dispositivos móviles">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://kit.fontawesome.com/ffad96fe54.js" crossorigin="anonymous"></script>
+  <title>Mi lista|Lista de la compra</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <header>
+      <div class="main-header header">
+        <h1>Lista de la compra</h1>
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="./index.html">Principal</a></li>
+            <li><a href="./lista-articulos.html"><strong>Lista</strong></a></li>
+            <li><a>Acerca de</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="secondary-header header">
+        <i class="fa-solid fa-plus icon" style="color: #44a080;"></i>
+        <span>2/3 comprados</span>
+      </div>
+    </header>
+    <main>
+      <div class="list-container">
+        <div class="list-item">
+          <label class="checkbox-label" for="pan"> Pan
+            <input type="checkbox" id="pan">
+          </label>
+          <div>
+            <span class="price-span strikethrough">0.75€</span>
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <label class="checkbox-label" for="azucar"> Azúcar
+            <input type="checkbox" id="azucar">
+          </label>
+          <div>
+            <span class="price-span"></span>
+            <i class="fa-solid fa-xmark " style="color: #000000;"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <label class="checkbox-label" for="leche"> Leche
+            <input type="checkbox" id="leche">
+          </label>
+          <div>
+            <span class="price-span strikethrough">1.20€</span>
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <label class="checkbox-label" for="tofu"> Tofu
+            <input type="checkbox" id="tofu">
+          </label>
+          <div>
+            <span class="price-span">4.35€</span>
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="total-price-container">
+        <span>6.3€</span>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
