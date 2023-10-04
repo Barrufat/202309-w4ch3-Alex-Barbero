@@ -13,24 +13,37 @@
 </head>
 
 <body>
-
-  <header>
-    <div class="main-header header">
-      <h1>Lista de la compra</h1>
-      <nav>
-        <ul class="nav-bar">
-          <li><a>Principal</a></li>
-          <li><a>Lista</a></li>
-          <li><a>Acerca de</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="secondary-header header">
-      <i class="fa-solid fa-minus icon" style="color: #44a080;"></i>
-      <span>2/3 comprados</span>
-    </div>
-  </header>
-
+  <div class="main-container">
+    <header>
+      <div class="main-header header">
+        <h1>Lista de la compra</h1>
+        <nav>
+          <ul class="nav-bar">
+            <li><a>Principal</a></li>
+            <li><a>Lista</a></li>
+            <li><a>Acerca de</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="secondary-header header">
+        <i class="fa-solid fa-minus icon" style="color: #44a080;"></i>
+        <span>2/3 comprados</span>
+      </div>
+    </header>
+    <main>
+      <h2>Añadir artículo</h2>
+      <form class="add-article-form">
+        <label for="name">Nombre:</label>
+        <input id="name" type="text">
+        <label for="name">Nombre:</label>
+        <div>
+          <input id="name" type="text">
+          <span>€</span>
+        </div>
+        <button class="submit-button" type="submit">Añadir</button>
+      </form>
+    </main>
+  </div>
 </body>
 
 </html>

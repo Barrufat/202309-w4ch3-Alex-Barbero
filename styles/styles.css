@@ -1,3 +1,6 @@
+:root {
+}
+
 *,
 ::before,
 ::after {
@@ -21,6 +24,13 @@ a {
   color: inherit;
 }
 
+input {
+  border: none;
+  width: 90%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
 button {
   color: inherit;
 }
@@ -30,14 +40,33 @@ html {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+main {
+  padding: 20px;
+  color: black;
+}
+
 h1 {
   font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 a {
   font-size: 0.75rem;
   margin-left: 10px;
   cursor: pointer;
+}
+
+label {
+  font-size: 0.75rem;
+}
+
+.main-container {
+  background-color: #ffc845;
+  height: 100vh;
 }
 
 .header {
@@ -65,4 +94,20 @@ a {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+}
+
+.add-article-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.submit-button {
+  color: white;
+  font-size: 0.75rem;
+  background-color: #279989;
+  border: none;
+  width: 30%;
+  padding: 10px;
+  margin-top: 5px;
 }
