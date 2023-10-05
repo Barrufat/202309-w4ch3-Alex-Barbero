@@ -1,4 +1,9 @@
 :root {
+  --primary-header: #279989;
+  --secondary-header: #44a080;
+  --main-background: #ffc845;
+  --header-color: #fff;
+  --main-color: #000;
 }
 
 *,
@@ -49,7 +54,7 @@ html {
 
 main {
   padding: 20px;
-  color: black;
+  color: var(--main-color);
 }
 
 h1 {
@@ -72,12 +77,12 @@ label {
 }
 
 .main-container {
-  background-color: #ffc845;
+  background-color: var(--main-background);
   height: 100vh;
 }
 
 .header {
-  color: white;
+  color: var(--header-color);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -85,15 +90,15 @@ label {
 }
 
 .main-header {
-  background-color: #279989;
+  background-color: var(--primary-header);
 }
 
 .secondary-header {
-  background-color: #44a080;
+  background-color: var(--secondary-header);
 }
 
 .icon {
-  background-color: white;
+  background-color: var(--header-color);
   border-radius: 15px;
   padding: 5px 6px;
 }
@@ -110,9 +115,9 @@ label {
 }
 
 .submit-button {
-  color: white;
+  color: var(--header-color);
   font-size: 0.75rem;
-  background-color: #279989;
+  background-color: var(--primary-header);
   border: none;
   width: 30%;
   padding: 10px;
