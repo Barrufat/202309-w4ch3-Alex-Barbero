@@ -36,7 +36,7 @@ a {
   padding: 5px;
 }
 
-[type="num"] {
+[type="number"] {
   border: none;
   width: 90%;
   margin: 5px 0;
